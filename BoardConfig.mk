@@ -37,8 +37,8 @@ BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_SOURCE := kernel/realme/RMX1805
 TARGET_KERNEL_CONFIG := MSM_18355_msm8953-perf_defconfig
-TARGET_KERNEL_CLANG_VERSION := clang-6443078
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-6443078
+TARGET_KERNEL_CLANG_VERSION := clang-r383902
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r383902
 TARGET_KERNEL_ADDITIONAL_FLAGS += HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 TARGET_KERNEL_LLVM_BINUTILS := false
 TARGET_KERNEL_CLANG_COMPILE := true
