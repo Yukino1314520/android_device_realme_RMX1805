@@ -16,7 +16,7 @@ $(call inherit-product, device/realme/RMX1805/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Boot Animation
-TARGET_BOOT_ANIMATION_RES := 1520
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := realme
