@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from RMX1805 device
 $(call inherit-product, device/realme/RMX1805/device.mk)
 
-# Inherit some common Arrow stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common aosp stuff
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1520
@@ -22,8 +22,8 @@ TARGET_BOOT_ANIMATION_RES := 1520
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1805
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := arrow_RMX1805
-PRODUCT_MODEL := Realme 2
+PRODUCT_NAME := aosp_RMX1805
+PRODUCT_MODEL := Realme 2/C1
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 TARGET_VENDOR := realme
